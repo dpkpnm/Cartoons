@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+    <widget id="com.dpkpnm.cartoons" version="0.0.0" versionCode="1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Cartoons</name>
+    <description>Cartoons</description>
+    <allow-navigation href="*://*.dpkpnm.com/*" />
+    <author email="dpkpnm@gmail.com" href="http://dpkpnm.com">Deepak Penmetsa</author>
+    <preference name="phonegap-version" value="cli-6.5.0" />
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+    <gap:plugin name="cordova-plugin-statusbar" source="npm" />
+    <gap:plugin name="cordova-plugin-vibration" source="npm" />
+    <gap:plugin name="phonegap-plugin-contentsync" source="npm" />
+    <gap:plugin name="cordova-sqlite-plugin" source="npm" />
+    <gap:plugin name="cordova-plugin-exoplayer" source="npm" version="2.3.0" />
+    <icon src="icon.png" />
+    <icon gap:platform="android" gap:qualifier="ldpi" src="www/icons/Icon-24@1.5x.png" />
+    <icon gap:platform="android" gap:qualifier="mdpi" src="www/icons/Icon-24@2x.png" />
+    <icon gap:platform="android" gap:qualifier="hdpi" src="www/icons/Icon-72.png" />
+    <icon gap:platform="android" gap:qualifier="xhdpi" src="www/icons/96.png" />
+    <icon gap:platform="ios" height="57" src="www/icons/Icon-57.png" width="57" />
+    <icon gap:platform="ios" height="72" src="www/icons/Icon-72.png" width="72" />
+    <icon gap:platform="ios" height="114" src="www/icons/Icon-57@2x.png" width="114" />
+    <icon gap:platform="ios" height="144" src="www/icons/Icon-72@2x.png" width="144" />
+    <preference name="orientation" value="portrait" />
+    <preference name="DisallowOverscroll" value="true"/>
+    <preference name="vibration" value="true"/>
+    <preference name="HideKeyboardFormAccessoryBar" value="true"/>
+    <access origin="*" />
+</widget>
